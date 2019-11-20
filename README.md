@@ -8,6 +8,9 @@ Paste your answers into this file.
 
 ```
 ANSWER HERE
+for(i = 0; i <= 10; i ++){
+  console.log(i);
+}
 ```
 
 <br>
@@ -16,6 +19,9 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(i = 10; i >= 0; i --){
+  console.log(i);
+}
 ```
 
 <br>
@@ -24,6 +30,9 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(i = 4; i >= -16; i --){
+  console.log(i);
+}
 ```
 
 <br>
@@ -32,6 +41,9 @@ ANSWER HERE
 
 ```
 ANSWER HERE
+for(i = 8; i <= 41; i = i + 5){
+  console.log(i);
+}
 ```
 
 <br>
@@ -49,6 +61,15 @@ If the `number` is evenly divisible by 3 AND evenly divisible by 5, print "Fizzb
 
 ```
 ANSWER HERE
+for(var i = 0; i <= 100; i++) {
+  if(i % 3 == 0 && i % 5 == 0){
+    console.log("FizzBuzz");
+  }else if(i % 3 == 0){
+      console.log("Fizz");
+   }else if(i % 5 == 0){
+     console.log("Buzz");
+   }
+}
 ```
 
 <br>
@@ -60,6 +81,15 @@ Write a for loop that will iterate from 0 to 20. For each iteration, it will che
 
 ```
 ANSWER HERE
+
+for(var i = 0; i <= 20; i++) {
+  if((i % 2) != 0){
+    console.log(i + " is odd");
+  }else{
+    console.log(i + " is even");
+  }   
+}
+
 ```
 
 <br>
@@ -67,12 +97,16 @@ ANSWER HERE
 ## Multiplication Tables
 
 Write a for loop that will iterate from 0 to 10. For each iteration of the for loop, it will multiply the number by 9 and log the result (e.g. "2 * 9 = 18").
-
 Bonus: Use a nested for loop to show the tables for every multiplier from 1 to 10 (100 results total).
 
 
 ```
 ANSWER HERE
+
+for(var i = 0; i <= 10; i++) {
+   var m = i * 9;
+  console.log(i + " * " + " 9 = " + m);
+}
 ```
 
 <br>
